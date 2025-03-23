@@ -1,1 +1,73 @@
 Hello Helen
+    1   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  echo >> /Users/helen/.zprofile
+    3  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/helen/.zprofile
+    4  eval "$(/opt/homebrew/bin/brew shellenv)"
+    5  brew install git
+    6  pwd
+    7  ls
+    8  mkdir work
+    9  cd work
+   10  pwd
+   11  cd ..
+   12  pwd
+   13  cd work
+   14  pwd
+   15  cd ../..
+   16  pwd
+   17  cd helen/work
+   18  pwd
+   19  git clone https://github.com/fushiqi0517/PythonStudy.git
+   20  ssh-keygen -p -f ~/.ssh/id_ed25519
+   21  mkdir ~/.ssh
+   22  git clone https://github.com/fushiqi0517/PythonStudy.git
+   23  ssh-keygen -p -f ~/.ssh/id_ed25519
+   24  pwd
+   25  cd ~
+   26  pwd
+   27  ls -la
+   28  cd .ssh
+   29  ssh-keygen -p -f ~/.ssh/id_ed25519
+   30  ssh-keygen -p
+   31  ls
+   32  which ssh-keygen
+   33   ssh-keygen
+   34  ls
+   35  cat id_rsa
+   36  file id_rsa
+   37  ls
+   38  cat id_rsa.pub
+   39  echo $SHELL
+   40  pwd
+   41  cd ~/work
+   42  pwd
+   43  history
+   44  history|grep git
+   45  brew install git
+   46  git clone https://github.com/fushiqi0517/PythonStudy.git
+   47  git clone git@github.com:fushiqi0517/PythonStudy.git
+   48  ls
+   49  cd PythonStudy
+   50  pwd
+   51  ls -la
+   52  mkdir test
+   53  cd test
+   54  pwd
+   55  touch a
+   56  ls
+   57  ls -la
+   58  echo "Hello Helen">>a
+   59  ls -la
+   60  file a
+   61  cat a
+   62  pwd
+   63  cd../
+   64  cd ../
+   65  pwd
+   66  git add .
+   67  git commit
+   68  git push
+   69  pwd
+   70  cd test
+   71  history
+   72  history>>a
